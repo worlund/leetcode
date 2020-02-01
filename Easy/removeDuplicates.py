@@ -1,3 +1,6 @@
+'''
+Remove duplicates in array
+'''
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         prev = None

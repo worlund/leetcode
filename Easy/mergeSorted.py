@@ -2,6 +2,7 @@ class Solution:
     def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
         """
         Do not return anything, modify nums1 in-place instead.
+        alternatively just put them in and then use .sort
         """
         tmp = [0] * (m + n)
         i = 0
